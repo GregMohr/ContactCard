@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  width: 970px;
+  margin: 15px;
+  padding: 15px;
+
+}
+
+form{
+  width: 438px;
+  /*border: solid 2px black;*/
+  margin: 15px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+
+}
+h1{
+  border-bottom: solid 2px grey;
+  margin: 5px 5px 20px 5px;
+}
+label{
+  display: block;
+  vertical-align: top;
+  margin: 5px;
+  text-align: right;
+}
+form:nth-child(6){
+  margin-top: 40px;
+}
+#container{
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+}
+.Card{
+  border: solid;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 130px 10px;
+  height: 100px;
+  width: 250px;
+  padding: 10px;
+}
+h2{
+  text-align: center;
+  margin-top: 15px;
+}
+p{
+  text-align: center;
+  display: none;
+}
